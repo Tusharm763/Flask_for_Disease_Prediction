@@ -55,6 +55,10 @@ from sklearn.metrics import *
 # 2. App 
 app = Flask(__name__)
 
+@app.route('/')
+def app3():
+    return "Hello World"
+
 feature = [
     'back_pain', 'constipation', 'abdominal_pain', 'diarrhoea', 'mild_fever', 'yellow_urine', 'yellowing_of_eyes',
     'acute_liver_failure', 'fluid_overload', 'swelling_of_stomach', 'swelled_lymph_nodes', 'malaise',
