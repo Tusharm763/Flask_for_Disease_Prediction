@@ -253,7 +253,10 @@ def returnascii():
     inputchr = str(request.args['query'])
     d['output'] = f"Hello {inputchr}"
     return d
-
+    
+if __name__ == '__main__':
+    app.run()
+    
 # from flask import Flask, request, jsonify
 
 # app = Flask(__name__)
