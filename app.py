@@ -37,6 +37,9 @@
 # import pickle
 
 # from datetime import date,datetime#          for Date time based Report Generation
+
+pip install flask pandas numpy scikit-learn
+
 from flask import Flask, jsonify, request
 import pandas as pd
 import numpy as np
